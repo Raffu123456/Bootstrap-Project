@@ -10,13 +10,13 @@
 <body>
     <nav class="navbar navbar-light bg-primary-subtle fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Teachers Page</a>
+          <a class="navbar-brand" href="#"><h3>Teacher's Page</h3></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Class Information</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -28,7 +28,7 @@
                   <a class="nav-link" href="#classwork">Class Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Log Out</a>
+                  <a class="nav-link" href="../login/login.html">Log Out</a>
                 </li>
                 
                   </ul>
@@ -59,6 +59,7 @@
                         <h5 class="modal-title" id="exampleModalLabel">Create Class</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
+                      <form action="#class">
                       <div class="modal-body">
                         <input type="text" placeholder="Class Name">
                         <input type="text" placeholder="Section">
@@ -68,8 +69,9 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <a href="#class"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Create</button></a>
+                        <input type="submit" class="btn btn-primary" data-bs-dismiss="modal" value="Create">
                       </div>
+                    </form>
                     </div>
                   </div>
                 </div>
