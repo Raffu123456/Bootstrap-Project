@@ -1,0 +1,49 @@
+.outer {
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    height: 90vh;
+    padding-top: 12em;
+    text-align: center;
+
+}
+.right {
+    width: 50%;
+    height: 90vh;
+}
+.classbtn{
+   width: 10rem;
+   border-radius: 10px;
+   background-color: rgb(206, 154, 238);
+   border: none;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.classbtn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.classbtn a:hover{
+    color: white;
+}
+.classbtn:hover{
+    background-color: rgb(174, 0, 248);
+    color: white;
+}
+#class {
+    width: 100%;
+    height: 90vh;
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.926);
+}

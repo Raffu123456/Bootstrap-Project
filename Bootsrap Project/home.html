@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <style>@each $breakpoint in map-keys($grid-breakpoints) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+      $postfix: if($infix != "", $infix + "-down", "");
+    
+      @include media-breakpoint-down($breakpoint) {
+        .modal-fullscreen#{$postfix} {
+          width: 100vw;
+          max-width: none;
+          height: 100%;
+          margin:0;
+    
+          .modal-content {
+            height: 100%;
+            border: 0;
+            @include border-radius(0);
+          }
+    
+          .modal-header {
+            @include border-radius(0);
+          }
+    
+          .modal-body {
+            overflow-y: auto;
+          }
+    
+          .modal-footer {
+            @include border-radius(0);
+          }
+        }
+      }
+    }</style>
 </head>
 <body>
     <nav class="navbar navbar-light bg-primary-subtle fixed-top">
@@ -35,7 +66,33 @@
           </div>
         </div>
       </nav>
-    <script src="bootstrap.min.js"></script>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1>flkhakshfaslkfhsdkfhsdkfsklfashfsufhsfses</h1>
+        <h2>afnklahfaklhdawidhaw;dhjaidhaflLKFLFFHuEFhFjskfhUFhdlkfdsfhre;f</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="bootstrap.min.js">
+      
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

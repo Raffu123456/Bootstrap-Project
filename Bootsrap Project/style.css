@@ -93,6 +93,10 @@ body{
     text-align: center;
     text-decoration: none;
 }
+.btn a{
+    text-decoration: none;
+    color: black;
+}
 .btn:hover{
     opacity: 0.82;
 }
