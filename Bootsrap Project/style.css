@@ -15,10 +15,20 @@ body{
 .title{
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 350px;
     
+}
+.S {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.T {
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 .title h1{
     text-align: center;
