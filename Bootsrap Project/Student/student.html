@@ -62,10 +62,9 @@
                       </div>
 
                       <div class="modal-body">
-                        <input type="text" placeholder="Class Name">
-                        <input type="text" placeholder="Section">
-                        <input type="text" placeholder="Room">
-                        <input type="text" placeholder="Subject">
+                        <input type="text" placeholder="Class Name" id="classes">
+                        <input type="text" placeholder="Section" id="sec">
+                        <input type="text" placeholder="Subject" id="sub">
                         
                       </div>
                       <div class="modal-footer">
@@ -250,6 +249,88 @@
             
           
         </div>
+          <div class="col-sm-6" id="wtf">
+            <div class="card"> 
+              <div class="card-body">
+                <h5 class="card-title" id="className">CP3</h5>
+                <p class="card-text" id="subject">Computer Programming 3</p>
+                <p class="card-text" id="section">Section: SOLARIS</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                  See Class
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="staticBackdropLabel">Class Subject: <br> Computer Programming(CP3)</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Felipa Damgo</h3>
+                        <p>Oct 03</p>
+                        <p>
+                          Hello all! <br> 
+                          Attached here your next topic. Have a copy time to study and research on this and do simulation in your IDE. <br>
+                          <a href="../file/Module 1(Java Intro).pptx.pdf">Module 1(Java Array).pptx.pdf</a>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#solaris" role="button" aria-controls="solaris">
+                  See Classmates
+                </a>
+                
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="solaris" aria-labelledby="solaris">
+                  <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <table class="table table-collapse">
+                      <th>Name of Classmates</th>
+                      <tr>
+                        <td>Josh</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+            
+          
+        </div>
 
 
       </div>
@@ -311,5 +392,6 @@
         </div>
 
     <script src="../bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
