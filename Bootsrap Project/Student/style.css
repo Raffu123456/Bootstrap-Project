@@ -121,7 +121,9 @@
     margin-top: 3em;
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(123, 210, 220);
+    border: none;
+    box-shadow: 0px 0px 10px 2px black;
 }
 .CP3 {
     width: 50%;
@@ -148,8 +150,9 @@
     margin-top: 3em;
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background-color: rgb(0, 140, 255);
-}
-#wtf {
-    display: none;
+
+    background-color: rgb(123, 210, 220);
+    box-shadow: 0px 0px 10px 2px black;
+    border: none;
+
 }
