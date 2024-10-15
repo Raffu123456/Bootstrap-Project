@@ -1,21 +1,26 @@
-let create = document.getElementById("create");
-let classes = document.getElementById("classes");
-let sub = document.getElementById("sub");
-let sec = document.getElementById("sec");
+let join = document.getElementById("join");
 let className = document.getElementById("className");
 let subject = document.getElementById("subject");
 let section = document.getElementById("section");
 
-create.onclick = function() {
-    className.textContent = classes.value;
-    subject.textContent = sub.value;
-    section.textContent = sec.value;
+let className2 = "DLD";
+let subject2 = "Digital Logic Design";
+let section2 = "Solaris";
 
-    let element = document.getElementById("wtf");
-    if (element.style.display === "none") {
-        element.style.display = "block";
+join.onclick = function () {
+    if(className2 == className.value && subject2 == subject.value && section2 == section.value) {
+        alert("Class Found!");
+
+        let element = document.getElementById("joinClass");
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        }
+        else {
+            element.style.display = "block";
+        }
     }
     else {
-        element.style.display = "block";
+        alert("Class not Found!");
     }
+
 }

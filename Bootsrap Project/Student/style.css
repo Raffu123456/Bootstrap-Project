@@ -1,21 +1,25 @@
 .offcanvas {
     background-color: rgb(133, 220, 255);
 }
+
 .nav-item {
     font-size: 1.3em;
     font-family: sans-serif;
 }
+
 .offcanvas-title {
     font-size: 1.3em;
     font-family: sans-serif;
     font-weight: bold;
 }
+
 .outer {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
+
 .left {
     width: 50%;
     height: 90vh;
@@ -23,65 +27,77 @@
     text-align: center;
     font-size: 1.5em;
 }
+
 .left h1 {
     padding-top: -20px;
     padding-bottom: 20px;
 }
+
 .left p {
     font-family: serif;
     font-style: italic;
 }
+
 .left btn {
     padding-top: 200px;
 }
+
 .right {
     padding-top: 80px;
     width: 50%;
     height: 90vh;
 }
-.classbtn{
-   width: 10rem;
-   border-radius: 10px;
-   background-color: rgb(206, 154, 238);
-   border: none;
-   padding: 10px;
-   text-align: center;
-   cursor: pointer;
-   transition: 0.5s;
+
+.classbtn {
+    width: 10rem;
+    border-radius: 10px;
+    background-color: rgb(206, 154, 238);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-.classbtn a{
+.classbtn a {
     text-decoration: none;
     color: black;
     cursor: pointer;
     transition: 0.3s;
 }
-.classbtn a:hover{
+
+.classbtn a:hover {
     color: white;
 }
-.classbtn:hover{
+
+.classbtn:hover {
     background-color: rgb(174, 0, 248);
     color: white;
 }
+
 #class {
     width: 100%;
     height: 90vh;
 }
+
 .card-body {
     background-color: rgba(255, 255, 255, 0.926);
 }
+
 .modal-footer {
     color: rgb(221, 218, 218);
-} 
+}
+
 .card-body {
     background-color: rgba(112, 248, 248, 0.952);
     font-size: 1.2em;
     font-family: sans-serif;
 }
+
 .modal-title {
     text-align: center;
     font-family: sans-serif;
-    
+
 }
 
 /* Activities */
@@ -90,12 +106,14 @@
     font-size: 3em;
     text-align: center;
 }
+
 .activities {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
+
 .OOP {
     width: 50%;
     border: 2px solid;
@@ -103,20 +121,27 @@
     display: block;
     font-family: sans-serif;
 }
+
 .OOP h1 {
     background-color: aqua;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
-.OOP h4, h5,p, input {
+
+.OOP h4,
+h5,
+p,
+input {
     padding-left: 10px;
 }
+
 .OOP input {
     border: 2px solid;
     border-radius: 10px;
     padding-left: 0px;
     width: fit-content;
 }
+
 .OOP p button {
     margin-top: 3em;
     padding: 10px 25px 10px 25px;
@@ -125,6 +150,7 @@
     border: none;
     box-shadow: 0px 0px 10px 2px black;
 }
+
 .CP3 {
     width: 50%;
     border: 2px solid;
@@ -132,20 +158,27 @@
     display: block;
     font-family: sans-serif;
 }
+
 .CP3 h1 {
     background-color: aqua;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
-.CP3 h4, h5,p, input {
+
+.CP3 h4,
+h5,
+p,
+input {
     padding-left: 10px;
 }
+
 .CP3 input {
     border: 2px solid;
     border-radius: 10px;
     padding-left: 0px;
     width: fit-content;
 }
+
 .CP3 p button {
     margin-top: 3em;
     padding: 10px 25px 10px 25px;
@@ -155,4 +188,8 @@
     box-shadow: 0px 0px 10px 2px black;
     border: none;
 
+}
+
+#joinClass {
+    display: none;
 }

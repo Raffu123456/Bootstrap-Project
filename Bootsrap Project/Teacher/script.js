@@ -17,16 +17,22 @@ let content = document.getElementById("content");
 let file = document.getElementById("file");
 
 
-create.onclick = function() {
-     classSub.textContent = classes.value;
-     content.textContent = content2.value;
-     file.textContent = file2.value;
-     date.textContent = date2.value;
+create.onclick = function () {
+    classSub.textContent = classes.value;
+    content.textContent = content2.value;
+    file.textContent = file2.value;
+    date.textContent = date2.value;
 
 
-     abbre.textContent = classes.value;
-     subject.textContent = sub.value;
-     section.textContent = sec.value;
+    abbre.textContent = classes.value;
+    subject.textContent = sub.value;
+    section.textContent = sec.value;
+    
+    file2.addEventListener('change', function(event) {
+        let fileName = event.target.files[0].name;
+        document.getElementById("fileName").textContent = fileName;
+
+    });
 
 
     let element = document.getElementById("createSub");
