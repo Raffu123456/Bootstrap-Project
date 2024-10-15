@@ -36,5 +36,5 @@ create.onclick = function() {
         element.style.display = "block";
     }
 
-    alert(`${classes.value} "Class Created"`);
+    alert(`${classes.value} Class Created`);
 }
