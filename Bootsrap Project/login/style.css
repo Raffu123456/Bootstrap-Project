@@ -50,6 +50,16 @@ body {
     padding-top: 10px;
     color: rgb(48, 47, 47);
     font-family: sans-serif;
+    text-shadow: 5px 5px 10px rgb(216, 214, 214);
+}
+.title h1 span {
+    font-family: Verdana;
+    color: blueviolet;
+}
+
+.field input {
+    font-style: italic;
+    border: none;
 }
 
 .container {
